@@ -1,0 +1,307 @@
+.content {
+    margin-left: 2rem;
+}
+
+.stats {
+    display: flex;
+
+    padding: 3.2rem 0 3.2rem 4rem;
+    
+    border: 1px solid #E5E5F3;
+    border-top: unset;
+    border-radius: 1.6rem;
+
+    width: 95.2rem;
+
+    margin-bottom: 3.2rem;
+}
+
+.interest-box {
+    background-color: #2D91FE;
+
+    width: 18.2rem;
+    color: white;
+
+    padding: 3.2rem 0;
+    padding-left: 3.2rem;
+
+    box-sizing: border-box;
+    margin-right: 6.4rem;
+}
+
+.interest-heading {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.interest-rates {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.interest-text {
+    font-size: 1.4rem;
+    letter-spacing: 0.021rem;
+    line-height: 2rem;
+}
+
+.container {
+    flex: 1;
+}
+
+.status-information {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.active, .investment, .loans {
+    color: #80CB17;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    margin-right: 11.5rem;
+
+    span {
+        color: #0D0F52;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: 0.021rem;
+        opacity: 0.3;
+    }
+}
+
+.loans {
+    margin-right: unset;
+    color: #0D0F52;
+}
+
+.investment {
+    color: #0D0F52;
+}
+
+.strategy {
+
+    display: flex;
+
+    &-heading {
+        color: #0D0F52;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: 0.021rem;
+        opacity: 0.3;
+        margin-right: 14.9rem;
+    }
+
+    .actions {
+
+
+        .stop, .settings {
+            background-color: #FF6769;
+            font-size: 1.4rem;
+            color: white;
+            font-weight: 600;
+            
+            padding: 1.4rem 2.4rem;
+            
+            margin-right: 1rem;
+            
+            border-radius: 4.2rem;
+            border: unset;
+        }
+
+        .settings {
+            background-color:white;
+            margin-right: unset;
+            
+            color: #0D0F52;
+            font-weight: 400;
+            border: 1px solid #E5E5F3;
+            
+        }
+    }
+}
+
+.charts {
+    display: flex;
+    margin-bottom: 7.2rem;
+}
+
+.investmentbar {
+    width: 46.4rem;
+    height: 36.8rem;
+
+    padding-top: 4rem;
+    
+    padding-left: 4.2rem;
+    padding-right: 6.6rem;
+    
+    border: 1px solid #E5E5F3;
+    border-radius: 4.2rem;
+    box-sizing: border-box;
+
+    margin-right: 2.4rem;
+
+    .heading {
+        display: flex;
+        margin-bottom: 3.8rem;
+    }
+
+    h3 {
+        color: #0D0F52;
+        font-size: 24px;
+        font-weight: 700;
+        margin-right: 1rem;
+        line-height: 3.2rem;
+    }
+}
+
+.labels {
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    margin-top: 3rem;
+
+    &-spent {
+        position: relative;
+
+        margin-right: 2.4rem;
+        padding-left: 2rem; 
+    }
+
+    &-spent:before {
+        content: '';
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%; 
+        background-color: #2D91FE;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+    &-excepted {
+        padding-left: 2rem; 
+        position: relative;
+    }
+
+    &-excepted:before {
+        content: '';
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%; 
+        background-color: #4BDFFF;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.distribution {
+    color: #0D0F52;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    width: 46.4rem;
+    height: 36.8rem;
+    border: 1px solid #E5E5F3;
+    border-radius: 4.2rem;
+    box-sizing: border-box;
+    padding-top: 4.8rem;
+
+    .chart {
+        display: flex;
+        align-items: center;
+
+        .dlabels {
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 2rem;
+            letter-spacing: 0.021rem;
+
+            .dlabels-a,.dlabels-b,.dlabels-c {
+                margin-bottom: .8rem;
+            }
+
+            .dlabels-a,.dlabels-b,.dlabels-c,.dlabels-d {
+                position: relative;
+                padding-left: 2rem;
+            }
+
+            .dlabels-a:before {
+                content: '';
+                display: inline-block;
+                width: 1.2rem;
+                height: 1.2rem;
+                border-radius: 50%; 
+                background-color: #2D91FE;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .dlabels-b:before {
+                content: '';
+                display: inline-block;
+                width: 1.2rem;
+                height: 1.2rem;
+                border-radius: 50%; 
+                background-color: #4BDFFF;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .dlabels-c:before {
+                content: '';
+                display: inline-block;
+                width: 1.2rem;
+                height: 1.2rem;
+                border-radius: 50%; 
+                background-color: #FFC359;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            .dlabels-d:before {
+                content: '';
+                display: inline-block;
+                width: 1.2rem;
+                height: 1.2rem;
+                border-radius: 50%; 
+                background-color: #FF6769;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    h3 {
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 700;
+
+        line-height: 3.2rem;
+
+        padding-bottom: 4.6rem;
+        padding-left: 4.8rem;
+    }
+
+    canvas {
+        width: 14.4rem !important;
+        height: 14.4rem !important;
+        
+        margin-left: 5.3rem;
+        margin-right: 6.8rem;
+    }
+}

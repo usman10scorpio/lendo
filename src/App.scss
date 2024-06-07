@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+
+  &-left {
+    padding-top: 4.4rem;
+    min-width: 36rem;
+    box-sizing: content-box;
+  }
+
+  &-right {
+    flex: 1;
+    padding-left: 5.8rem;
+  }
+ 
+}
+

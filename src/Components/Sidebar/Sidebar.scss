@@ -1,0 +1,144 @@
+
+.sidebar {
+
+    .logo {
+        display: flex;
+        padding-bottom: 4.4rem;
+        padding-left: 2rem;
+
+        border-bottom: 1px solid #E5E5F3;
+        margin: 0 2rem;
+
+        img:nth-child(1) {
+            width: 3.4rem;
+            height: 4.4rem;
+            margin-right: 1rem;
+          }
+
+          img:nth-child(2) {
+            width: 8rem;
+          }
+    }
+  
+  }
+  
+  .financials {
+  
+      position: relative;
+      padding-top: 6.4rem;
+      padding-bottom: 2.8rem;
+      padding-left: 6.5rem;
+      
+      display: flex;
+      border-right: 1px solid #E5E5F3;
+  
+      &-count {
+        color: #0D0F52;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 700;
+      }
+  
+      &-heading{
+        font-size: 1.4rem;
+      }
+  
+      &-chevron {
+
+        width: 1.6rem;
+        height: 1.6rem;
+
+        position: absolute;
+        bottom: 4rem;
+        right: 10rem;
+    
+
+      }
+  }
+
+  .action {
+    font-size: 1.4rem;
+   
+    padding-left: 6.5rem;
+    border-right: 1px solid #E5E5F3;
+
+    &-box {
+        display: flex;
+        margin-bottom: 4rem;
+     }
+
+    &-deposit {
+        width: 6.4rem;
+        
+        background-color: #2D91FE;
+        color: white;
+        
+        border-radius: 4.2rem;
+        border: none;
+
+        padding: 1.4rem 2.4rem;
+        box-sizing: content-box;
+        margin-right: 1rem;
+    }
+
+    &-withdraw {
+        width: 6.4rem;
+
+        background-color: white;
+        color: #0D0F52;
+
+        border-radius: 4.2rem;
+        border: 1px solid #E5E5F3;
+
+        padding: 1.4rem 2.4rem;
+        box-sizing: content-box;
+    }
+  }
+
+  .verify {
+    font-size: 1.4rem;
+
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 4.1rem;
+
+       img {
+            width: 2rem;
+            height: 2rem;
+            margin-right: 1rem;
+        }
+
+        p {
+            line-height: 2rem;
+            letter-spacing: 0.014rem;
+        }
+  }
+
+  .trustbox {
+    text-align: center;
+    padding-top: 5rem;
+    margin: 0 2rem;
+    border-top: 1px solid #E5E5F3;;
+
+    img {
+        width: 17.4rem;
+        height: 14.4rem;
+        margin-bottom: 4rem;
+    }
+
+    h5 {
+        color: #0D0F52;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 2.8rem;
+    }
+
+    p {
+        color: #0D0F52;
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 0.021rem;
+        opacity: 0.5;
+        line-height: 2rem;
+    }
+  }
